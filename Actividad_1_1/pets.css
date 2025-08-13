@@ -1,0 +1,37 @@
+h1 {
+  font-size: 2em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color:rgb(22, 49, 22)
+}
+
+.subtitulo {
+  font-size: 0.7em; 
+  margin-top: 0.2em; 
+  color: #666
+}
+
+#Barra {
+  background-color: #34dbb1; /*  Color azul */
+  color: white;
+  padding: 10px;
+  position: fixed; /*  Opcional: para que la barra sea fija */
+  top: 0; /*  Posiciona la barra en la parte superior */
+  left: 0; /*  Alinea la barra a la izquierda */
+  width: 100%; /*  Ocupa todo el ancho de la página */
+  z-index: 1000; /*  Asegura que la barra esté por encima de otros elementos */
+}
+
+.contenedor {
+  position: relative; /* Necesario para el posicionamiento absoluto de la imagen */
+  width: 300px; /* Ajusta el ancho del contenedor */
+  height: 200px; /* Ajusta la altura del contenedor */
+  border: 1px solid black; /* Solo para visualización del contenedor */
+}
+
+.icono_pag {
+  position: absolute; /* Posicionamiento absoluto */
+  top: 0; /* Distancia desde la parte superior */
+  left: 0; /* Distancia desde la izquierda */
+  width: 50px; /* Ajusta el ancho de la imagen */
+  height: 50px; /* Ajusta la altura de la imagen */
+}
